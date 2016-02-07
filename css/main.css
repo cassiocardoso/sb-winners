@@ -1,0 +1,109 @@
+/* ============================== *\
+ * main.css
+\* ============================== */
+
+/*
+ * Basic styling
+ *
+ * ============================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.search-input {
+  border: none;
+  border-radius: 20px;
+  display: block;
+  font-size: 2rem;
+  height: 3rem;
+  margin: 0 auto;
+  padding-left: .75rem;
+  width: 7rem;
+}
+
+/*
+ * Super Bowl container
+ *
+ * ============================== */
+
+.superbowl {
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.superbowl__title {
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+/*
+ * Super Bowl footer (SB info)
+ *
+ * ============================== */
+
+.superbowl__footer {
+  background-color: #111;
+  bottom: 0;
+  height: 90px;
+  position: absolute;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.superbowl__winner,
+.superbowl__loser {
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  padding: 0 2%;
+  width: 50%;
+}
+
+.superbowl__winner {
+  text-align: right;
+}
+.superbowl__winner:after {
+  content: 'x';
+  font-size: 5rem;
+  line-height: 50px;
+  position: absolute;
+  right: 48.5%;
+}
+
+.superbowl__winner-team,
+.superbowl__loser-team {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0 2%;
+}
+
+.superbowl__winner-team-score,
+.superbowl__loser-team-score {
+  font-size: 3rem;
+  margin: 0 2%;
+}
+
+.superbowl__info {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 2%;
+  width: 100%;
+}

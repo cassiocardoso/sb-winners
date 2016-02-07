@@ -1,0 +1,83 @@
+[
+  {
+    "id": "47",
+    "slug": "super-bowl-47",
+    "name": "Super Bowl XLVII",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Super_Bowl_XLVII_logo.svg",
+    "date": "Feb 3rd",
+    "year": "2013",
+    "stadium": "Mercedes-Benz Superdome",
+    "city": "New Orleans, Louisiana",
+    "attendance": "71,024",
+    "mvp": "Joe Flacco (QB)",
+    "winner_image": "http://graphics8.nytimes.com/images/2013/02/04/sports/football/20130204_SUPERBOWL_337-slide-91FK/20130204_SUPERBOWL_337-slide-91FK-superJumbo.jpg",
+    "winner": {
+      "name": "Baltimore Ravens",
+      "score": "34",
+      "main_color": "#2c0264",
+      "secondary_color": "#fff",
+      "conference": "afc"
+    },
+    "loser": {
+      "name": "San Francisco 49ers",
+      "score": "31",
+      "main_color": "#c1a05a",
+      "secondary_color": "#fff",
+      "conference": "nfc"
+    }
+  },
+  {
+    "id": "48",
+    "slug": "super-bowl-48",
+    "name": "Super Bowl XLVIII",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Super_Bowl_XLVII_logo.svg",
+    "date": "Feb 2nd",
+    "year": "2014",
+    "stadium": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "attendance": "82,529",
+    "mvp": "Malcolm Smith (LB)",
+    "winner_image": "http://www.columbian.com/wp-content/uploads/2015/11/Seahawks_Parade_Football19.jpg",
+    "winner": {
+      "name": "Seattle Seahawks",
+      "score": "43",
+      "main_color": "#",
+      "secondary_color": "#fff",
+      "conference": "nfc"
+    },
+    "loser": {
+      "name": "Denver Broncos",
+      "score": "8",
+      "main_color": "#",
+      "secondary_color": "#fff",
+      "conference": "afc"
+    }
+  },
+  {
+    "id": "49",
+    "slug": "super-bowl-49",
+    "name": "Super Bowl XLIX",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Super_Bowl_XLVII_logo.svg",
+    "date": "Feb 1st",
+    "year": "2015",
+    "stadium": "University of Phoenix Stadium",
+    "city": "Glendale, Arizona",
+    "attendance": "70,288",
+    "mvp": "Tom Brady (QB)",
+    "winner_image": "http://i1.mirror.co.uk/incoming/article5088695.ece/ALTERNATES/s1227b/Super-Bowl-XLVIII.jpg",
+    "winner": {
+      "name": "New England Patriots",
+      "score": "28",
+      "main_color": "#",
+      "secondary_color": "#fff",
+      "conference": "afc"
+    },
+    "loser": {
+      "name": "Seattle Seahawks",
+      "score": "24",
+      "main_color": "#",
+      "secondary_color": "#fff",
+      "conference": "nfc"
+    }
+  }
+]

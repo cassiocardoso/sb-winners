@@ -1,0 +1,24 @@
+{
+  "name": "sb-winners",
+  "version": "1.0.0",
+  "description": "Super Bowl winners",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "super",
+    "bowl",
+    "winners",
+    "football",
+    "nfl",
+    "afc",
+    "nfc"
+  ],
+  "author": "Cassio Cardoso <caugusto.cardoso@gmail.com>",
+  "license": "MIT"
+}

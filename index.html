@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Super Bowl Winners</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body ng-app="sbwApp">
+  <!-- Main area -->
+  <div ng-controller="SbwCtrl">
+    <div class="superbowl" ng-repeat="sb in superbowl | filter: year" style="background-image: url('{{ sb.winner_image }}')">
+      <h1 class="superbowl__title">{{ sb.name }}</h1>
+      <input type="text" class="search-input" id="search" ng-model="year">
+
+      <footer class="superbowl__footer">
+        <div class="superbowl__winner" style="background-color: {{ sb.winner.main_color }}; color: {{ sb.winner.secondary_color }}">
+          <span class="superbowl__winner-team">{{ sb.winner.name }}</span>
+          <span class="superbowl__winner-team-score">{{ sb.winner.score }}</span>
+        </div> <!-- /.superbowl__winner -->
+        <div class="superbowl__loser" style="background-color: {{ sb.loser.main_color }}; color: {{ sb.loser.secondary_color }}">
+          <span class="superbowl__loser-team-score">{{ sb.loser.score }}</span>
+          <span class="superbowl__loser-team">{{ sb.loser.name }}</span>
+        </div> <!-- /.superbowl__loser -->
+        <div class="superbowl__info">
+          <p>{{ sb.date }}, {{ sb.year }} - {{ sb.stadium }}: {{ sb.attendance }} - {{ sb.city }}</p>
+        </div> <!-- /.superbowl__info -->
+      </footer> <!-- /.superbowl__footer -->
+    </div> <!-- /.superbowl -->
+  </div>
+
+  <!-- Footer (with SB info) -->
+
+
+  <!-- Load JS files -->
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
