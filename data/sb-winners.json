@@ -1,5 +1,32 @@
 [
   {
+    "id": "45",
+    "slug": "super-bowl-45",
+    "name": "Super Bowl XLV",
+    "logo": "",
+    "date": "Feb 6th",
+    "year": "2011",
+    "stadium": "Cowboys Stadium",
+    "city": "Arlington, Texas",
+    "attendance": "103,219",
+    "mvp": "Aaron Rodgers (QB)",
+    "winner_image": "http://titletownsoundoff.com/wp-content/uploads/2014/07/Packers-Super-Bowl.jpg",
+    "winner": {
+      "name": "Green Bay Packers",
+      "score": "31",
+      "main_color": "#203731",
+      "secondary_color": "#ffb612",
+      "conference": "nfc"
+    },
+    "loser": {
+      "name": "Pittsburgh Steelers",
+      "score": "25",
+      "main_color": "#ffb612",
+      "secondary_color": "#000",
+      "conference": "afc"
+    }
+  },
+  {
     "id": "46",
     "slug": "super-bowl-46",
     "name": "Super Bowl XLVI",
