@@ -31,7 +31,11 @@
   <!-- Main area -->
   <div ng-controller="SbwCtrl">
     <div class="superbowl" ng-repeat="sb in superbowl | filter: year" style="background-image: url('{{ sb.winner_image }}')">
-      <h1 class="superbowl__title" id="superbowl-title">{{ sb.name }}</h1>
+      <h1 class="superbowl__title" id="superbowl-title">
+        <img class="superbowl__logo" src="{{ sb.logo }}" alt="{{ sb.title }}">
+        {{ sb.name }}
+      </h1>
+      <h3 class="superbowl__mvp">MVP: {{ sb.mvp }}</h3>
       <input type="text" class="search-input" id="year" name="year" ng-model="year" ng-change="changeWinner()">
 
       <footer class="superbowl__footer">

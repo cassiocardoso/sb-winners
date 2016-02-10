@@ -51,6 +51,15 @@ body {
   text-align: center;
 }
 
+.superbowl__logo {
+  height: 50px;
+}
+
+.superbowl__mvp {
+  margin: 2rem 0;
+  text-align: center;
+}
+
 /*
  * Super Bowl footer (SB info)
  *
