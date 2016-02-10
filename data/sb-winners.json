@@ -1,5 +1,86 @@
 [
   {
+    "id": "40",
+    "slug": "super-bowl-40",
+    "name": "Super Bowl XL",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/d/de/Super_Bowl_XL.svg",
+    "date": "Feb 5th",
+    "year": "2006",
+    "stadium": "Ford Field",
+    "city": "Detroit, Michigan",
+    "attendance": "68,206",
+    "mvp": "Hines Ward (WR)",
+    "winner_image": "http://a4.espncdn.com/photo/2014/0125/radio_superbowls_03.jpg",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": "21",
+      "main_color": "#ffb612",
+      "secondary_color": "#000",
+      "conference": "afc"
+    },
+    "loser": {
+      "name": "Seattle Seahawks",
+      "score": "10",
+      "main_color": "#024",
+      "secondary_color": "#69be28",
+      "conference": "nfc"
+    }
+  },
+  {
+    "id": "41",
+    "slug": "super-bowl-41",
+    "name": "Super Bowl XLI",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/1/1c/Super_Bowl_XLI_logo.svg",
+    "date": "Feb 4th",
+    "year": "2007",
+    "stadium": "Dolphin Stadium",
+    "city": "Miami Gardens, Florida",
+    "attendance": "74,512",
+    "mvp": "Peyton Manning (QB)",
+    "winner_image": "http://wac.450f.edgecastcdn.net/80450F/929jackfm.com/files/2012/03/Peyton-Manning-with-Lombardi-Trophy-030712.jpg",
+    "winner": {
+      "name": "Indianapolis Colts",
+      "score": "29",
+      "main_color": "#002c5f",
+      "secondary_color": "#fff",
+      "conference": "afc"
+    },
+    "loser": {
+      "name": "Chicago Bears",
+      "score": "17",
+      "main_color": "#0b162a",
+      "secondary_color": "#c83803",
+      "conference": "nfc"
+    }
+  },
+  {
+    "id": "42",
+    "slug": "super-bowl-42",
+    "name": "Super Bowl XLII",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Super_Bowl_XLII.svg",
+    "date": "Feb 3rd",
+    "year": "2008",
+    "stadium": "University of Phoenix Stadium",
+    "city": "Glendale, Arizona",
+    "attendance": "71,101",
+    "mvp": "Eli Manning (QB)",
+    "winner_image": "http://www.gannett-cdn.com/-mm-/5cd3c8fceb30049619917d61d55b6e67f7268af8/c=0-152-3588-2170&r=x1683&c=3200x1680/local/-/media/AsburyPark/2015/01/31/B9316083521Z.1_20150131233324_000_G0V9R4E4P.1-0.jpg",
+    "winner": {
+      "name": "New York Giants",
+      "score": "17",
+      "main_color": "#0b2265",
+      "secondary_color": "#a71930",
+      "conference": "nfc"
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": "14",
+      "main_color": "#024",
+      "secondary_color": "#fff",
+      "conference": "afc"
+    }
+  },
+  {
     "id": "43",
     "slug": "super-bowl-43",
     "name": "Super Bowl XLIII",

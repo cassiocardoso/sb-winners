@@ -25,7 +25,7 @@ app.service('sbwService', function($http, $q) {
 
   promise.then(function(data) {
     $scope.superbowl = data.data;
-    $scope.year = $scope.superbowl[0].year;
+    $scope.year = 2016;
   });
 
   $scope.changeWinner = function() {
