@@ -1,5 +1,32 @@
 [
   {
+    "id": "43",
+    "slug": "super-bowl-43",
+    "name": "Super Bowl XLIII",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/1/16/Super_Bowl_XLIII_logo.svg",
+    "date": "Feb 1st",
+    "year": "2009",
+    "stadium": "Raymond James Stadium",
+    "city": "Tampa, Florida",
+    "attendance": "70,774",
+    "mvp": "Santonio Holmes (WR)",
+    "winner_image": "http://media.spokesman.com/photos/2009/02/03/spt_3_superbow_02-03-2009_9OFA5AU.jpg",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": "27",
+      "main_color": "#ffb612",
+      "secondary_color": "#000",
+      "conference": "afc"
+    },
+    "loser": {
+      "name": "Arizona Cardinals",
+      "score": "23",
+      "main_color": "#97233f",
+      "secondary_color": "#fff",
+      "conference": "nfc"
+    }
+  },
+  {
     "id": "44",
     "slug": "super-bowl-44",
     "name": "Super Bowl XLIV",
