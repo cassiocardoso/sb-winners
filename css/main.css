@@ -45,7 +45,8 @@ body {
 
 .superbowl__title {
   font-size: 5rem;
-  font-weight: 400;
+  font-style: italic;
+  font-weight: 700;
   margin: 1rem 0 2rem 0;
   text-align: center;
 }
@@ -58,7 +59,8 @@ body {
 .superbowl__footer {
   background-color: #111;
   bottom: 0;
-  height: 90px;
+  font-weight: 700;
+  height: 60px;
   position: absolute;
   width: 100%;
 
@@ -80,13 +82,7 @@ body {
 .superbowl__winner {
   text-align: right;
 }
-.superbowl__winner:after {
-  content: 'x';
-  font-size: 5rem;
-  line-height: 50px;
-  position: absolute;
-  right: 48.5%;
-}
+
 
 .superbowl__winner-team,
 .superbowl__loser-team {
