@@ -60,7 +60,7 @@ body {
   background-color: #111;
   bottom: 0;
   font-weight: 700;
-  height: 60px;
+  height: 80px;
   position: absolute;
   width: 100%;
 
@@ -72,8 +72,8 @@ body {
 
 .superbowl__winner,
 .superbowl__loser {
-  height: 60px;
-  line-height: 60px;
+  height: 80px;
+  line-height: 80px;
   margin: 0;
   padding: 0 2%;
   width: 50%;
@@ -88,7 +88,9 @@ body {
 .superbowl__loser-team {
   font-size: 1.5rem;
   font-style: italic;
+  letter-spacing: .1rem;
   margin: 0 2%;
+  text-transform: uppercase;
 }
 
 .superbowl__winner-team-score,

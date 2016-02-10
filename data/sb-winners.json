@@ -1,5 +1,32 @@
 [
   {
+    "id": "46",
+    "slug": "super-bowl-46",
+    "name": "Super Bowl XLVI",
+    "logo": "",
+    "date": "Feb 5th",
+    "year": "2012",
+    "stadium": "Lucas Oil Stadium",
+    "city": "Indianapolis, Indiana",
+    "attendance": "68,658",
+    "mvp": "Eli Manning (QB)",
+    "winner_image": "http://wac.450f.edgecastcdn.net/80450F/1045theteam.com/files/2012/02/Rob-Carr.jpg",
+    "winner": {
+      "name": "New York Giants",
+      "score": "21",
+      "main_color": "#0b2265",
+      "secondary_color": "#a71930",
+      "conference": "nfc"
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": "17",
+      "main_color": "#024",
+      "secondary_color": "#fff",
+      "conference": "afc"
+    }
+  },
+  {
     "id": "47",
     "slug": "super-bowl-47",
     "name": "Super Bowl XLVII",
@@ -14,15 +41,15 @@
     "winner": {
       "name": "Baltimore Ravens",
       "score": "34",
-      "main_color": "#2c0264",
+      "main_color": "#241773",
       "secondary_color": "#fff",
       "conference": "afc"
     },
     "loser": {
       "name": "San Francisco 49ers",
       "score": "31",
-      "main_color": "#c1a05a",
-      "secondary_color": "#fff",
+      "main_color": "#a00",
+      "secondary_color": "#b3995d",
       "conference": "nfc"
     }
   },
@@ -30,7 +57,7 @@
     "id": "48",
     "slug": "super-bowl-48",
     "name": "Super Bowl XLVIII",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Super_Bowl_XLVII_logo.svg",
+    "logo": "",
     "date": "Feb 2nd",
     "year": "2014",
     "stadium": "MetLife Stadium",
@@ -41,14 +68,14 @@
     "winner": {
       "name": "Seattle Seahawks",
       "score": "43",
-      "main_color": "#",
-      "secondary_color": "#fff",
+      "main_color": "#024",
+      "secondary_color": "#69be28",
       "conference": "nfc"
     },
     "loser": {
       "name": "Denver Broncos",
       "score": "8",
-      "main_color": "#",
+      "main_color": "#fb4f14",
       "secondary_color": "#fff",
       "conference": "afc"
     }
@@ -57,7 +84,7 @@
     "id": "49",
     "slug": "super-bowl-49",
     "name": "Super Bowl XLIX",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/1/19/Super_Bowl_XLVII_logo.svg",
+    "logo": "",
     "date": "Feb 1st",
     "year": "2015",
     "stadium": "University of Phoenix Stadium",
@@ -68,15 +95,42 @@
     "winner": {
       "name": "New England Patriots",
       "score": "28",
-      "main_color": "#",
+      "main_color": "#024",
       "secondary_color": "#fff",
       "conference": "afc"
     },
     "loser": {
       "name": "Seattle Seahawks",
       "score": "24",
-      "main_color": "#",
+      "main_color": "#024",
+      "secondary_color": "#69be28",
+      "conference": "nfc"
+    }
+  },
+  {
+    "id": "50",
+    "slug": "super-bowl-50",
+    "name": "Super Bowl 50",
+    "logo": "",
+    "date": "Feb 7th",
+    "year": "2016",
+    "stadium": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "attendance": "70,288",
+    "mvp": "Von Miller (LB)",
+    "winner_image": "https://lintvksnt.files.wordpress.com/2016/02/super-bowl-football_dull1.jpg",
+    "winner": {
+      "name": "Denver Broncos",
+      "score": "24",
+      "main_color": "#fb4f14",
       "secondary_color": "#fff",
+      "conference": "afc"
+    },
+    "loser": {
+      "name": "Carolina Panthers",
+      "score": "10",
+      "main_color": "#0085ca",
+      "secondary_color": "#000",
       "conference": "nfc"
     }
   }
